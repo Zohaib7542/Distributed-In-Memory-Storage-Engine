@@ -18,13 +18,3 @@ Built to replicate the core architectural concepts of enterprise caching systems
 *   **Dashboard:** Flutter / Dart (macOS Desktop Native), `dart:io` Sockets
 *   **Protocol:** Custom lightweight TCP text protocol
 
-## Quick Start
-
-### 1. Start the Cluster
-Open three separate terminal windows to spin up the backend nodes:
-```bash
-cd backend
-javac *.java
-java AeroCacheServer 8081
-java AeroCacheServer 8082
-java AeroCacheServer 8083

@@ -52,3 +52,5 @@ To evolve AeroCache into a production-ready enterprise tier equivalent to Redis 
 *   **Write-Ahead Logging (WAL):** Currently, if the entire data center loses power, RAM is wiped. Implementing a WAL will append every `SET` command to a local disk file, allowing a node to perfectly rebuild its memory state upon reboot.
 *   **Data Replication:** Upgrading the Hash Ring so that every key is not just written to its primary node, but also silently duplicated to its next neighbor on the ring, ensuring zero data loss if a single node dies.
 *   **Raft Consensus Algorithm:** Removing the centralized `CacheRouter` and allowing the backend nodes to talk to each other to elect a "Leader," removing the system's single point of failure.
+
+  ~Zohaib

@@ -1,5 +1,5 @@
 # AeroCache 
-
+It is a high-speed storage engine that keeps data in RAM rather than on a hard drive.
 A high-performance, fault-tolerant, distributed in-memory key-value store written from scratch in Java, paired with a real-time observability dashboard built in Flutter. 
 
 Built to replicate the core architectural concepts of enterprise caching systems like Memcached, Redis Cluster, and Amazon DynamoDB.
